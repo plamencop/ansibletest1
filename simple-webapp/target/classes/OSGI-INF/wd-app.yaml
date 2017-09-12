@@ -1,0 +1,28 @@
+!!WDApplication:
+  identification:
+    uniqueId:           Pau
+    titleKey:           application_title
+    descriptionKey:     application_description
+    version:            1.0-SNAPSHOT
+  instantiation:
+    path:               'Desktop'
+    index:              '1'
+    multipleInstances:  Y
+    restrictAccess:     Y
+    translationsGroup:  Y
+  menu:
+    icon:               '10'
+    iconSmall:          'N'
+    bgColor:            'black'
+    system:             Y
+    showTitle:          Y
+  window:
+    width:              36
+    minWidth:           50
+    height:             100
+    minHeight:          50
+    resizable:          Y
+    maximizable:        Y
+    minimizable:        Y
+    closable:           Y
+    draggable:          Y
